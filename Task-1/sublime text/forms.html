@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+	</title>
+</head>
+<body>
+	<form action="table.html"> <!-- burası formun gşdeceği yer-->
+		<!-- HTML5 İnputs -->
+		<label for="name">Name</label>
+		<input type="text" placeholder="Your Name" id="name" name=" Miraç ERDİN" required /><br><!-- id ile label daki name arasında bağlantı kurmak için öyle yaptık-->
+		<label for="email">Email</label>
+		<input type="email" id="email" /><br>
+		<button type="submit"> Gönder</button><br>
+
+		<label for="password">password</label>
+		<input type="password" name="password" id="password" required />
+		<input type="reset" value="Sıfırla" /><br>
+		<label for="date">Date</label>
+		<input type="date" id="date" name="date"><br>
+
+
+		Gender <br />
+		Male
+		<input type="radio" name="gender" value="male" checked /> <!-- checked işaretlenmiş olarak gelmesini sağlıyor.-->
+		female
+		<input type="radio" name="gender" value="female" />
+		other
+		<input type="radio" name="gender" value="other" /><br>
+
+		hobbies <br />
+		technology
+		<input type="checkbox" name="tech" value="tech">
+		music
+		<input type="checkbox" name="music" value="music">
+		art
+		<input type="checkbox" name="art" value="art"><br />
+
+
+		Degree <br />
+
+		<select name="degree" id="degree">
+			<option value="bachelor"> Lisans</option>
+			<option value="yükseklisans">Yükseklisans</option>
+			<option value="phd" selected>Phd</option>
+
+		</select>
+		<br />
+
+		<textarea name="message" id="message" rows="10" cols="30" placeholder="Your message"></textarea><br>
+		<button type="reset"> Sıfırla</button>
+		<input type="submit" value="Gönder" /> <!-- göndere basarsak bu formun içindeki tüm bilgiler gönderilek-->
+
+	</form>
+</body>
+</html>

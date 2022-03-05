@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		table, th, td
+		{
+			border: 1px solid red;
+
+		}
+		th,td
+		{
+			padding: 15px;
+			text-align: center;
+		}
+		th.head{
+			background-image: url(3725023.jpg);
+
+		}
+		.head:hover{
+			color: black;
+			position: relative;
+			
+			background-image: none;
+		}
+		table
+		{
+			border-spacing: 15px;
+		}
+	</style>
+
+</head>
+<body style="background: aqua;">
+	<table>
+		<caption> Öğrenci listesi
+		</caption>
+		<thead>
+			<tr style="color: red;">
+			<th class="head">Ad</th> <!-- bu kolonlara tekabül eden değerlerimiz olacak td nin içinde-->
+			<th class="head">Soyad</th>
+			<th class="head"colspan="2">Yaş</th>
+
+		</tr>
+		</thead>
+		 
+		<tr>
+			<td>Miraç</td>
+			<td>ERDİN</td>
+			<td>ERDİN</td> <!-- colspan 2 dersek 2 sütün genişliğinde yapar-->
+			<td>29</td>
+
+		</tr>
+		<tr>
+			<td>ismail</td>
+			<td>ERDİN</td>
+			<td colspan="2">31</td>
+
+		</tr>
+	</table>
+
+
+</body>
+</html>
